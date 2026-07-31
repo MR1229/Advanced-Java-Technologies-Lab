@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Registration Form</title>
+
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color:#f2f2f2;
+        }
+
+        .container{
+            width:500px;
+            margin:30px auto;
+            background:white;
+            padding:20px;
+            border-radius:8px;
+            box-shadow:0px 0px 10px gray;
+        }
+
+        h2{
+            text-align:center;
+            color:darkblue;
+        }
+
+        table{
+            width:100%;
+        }
+
+        td{
+            padding:8px;
+        }
+
+        input,
+        select,
+        textarea{
+
+            width:100%;
+            padding:8px;
+            box-sizing:border-box;
+        }
+
+        input[type=radio]{
+            width:auto;
+        }
+
+        input[type=submit]{
+
+            background:green;
+            color:white;
+            border:none;
+            cursor:pointer;
+            font-size:16px;
+        }
+
+        input[type=submit]:hover{
+
+            background:darkgreen;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Student Registration Form</h2>
+
+<form action="student" method="post">
+
+<table>
+
+<tr>
+<td>First Name</td>
+<td><input type="text" name="fname" required></td>
+</tr>
+
+<tr>
+<td>Last Name</td>
+<td><input type="text" name="lname" required></td>
+</tr>
+
+<tr>
+<td>Date of Birth</td>
+<td><input type="date" name="dob" required></td>
+</tr>
+
+<tr>
+<td>Gender</td>
+
+<td>
+
+<input type="radio" name="gender" value="Male"> Male
+
+<input type="radio" name="gender" value="Female"> Female
+
+</td>
+
+</tr>
+
+<tr>
+<td>Email</td>
+<td><input type="email" name="email"></td>
+</tr>
+
+<tr>
+<td>Mobile</td>
+<td><input type="text" name="mobile"></td>
+</tr>
+
+<tr>
+
+<td>Course</td>
+
+<td>
+
+<select name="course">
+
+<option>B.Tech CSE</option>
+
+<option>B.Tech IT</option>
+
+<option>B.Tech AI</option>
+
+<option>B.Tech AIDS</option>
+
+</select>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>Address</td>
+
+<td>
+
+<textarea rows="3" name="address"></textarea>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td colspan="2">
+
+<input type="submit" value="Register">
+
+</td>
+
+</tr>
+
+</table>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
