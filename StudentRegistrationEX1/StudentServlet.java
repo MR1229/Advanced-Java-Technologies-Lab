@@ -1,3 +1,4 @@
+//StudentRegistrationEx1\src\main\java\com\ajt
 package com.ajt;
 
 import java.io.IOException;
