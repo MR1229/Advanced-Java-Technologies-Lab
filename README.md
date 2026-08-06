@@ -12,18 +12,18 @@ The practicals are implemented according to the laboratory manual and syllabus. 
 Advanced-Java-Technologies-Lab/
 │
 ├── README.md
-├── Practical1_Servlet/
-├── Practical2_HttpSession/
-├── Practical3_JSP/
-├── Practical4_JSP_Servlet_JDBC/
-├── Practical5_JavaMail/
-├── Practical6_WebSocket/
-├── Practical7_HibernateCRUD/
-├── Practical8_HibernateCache/
-├── Practical9_REST_API/
-├── Practical10_JWT/
-├── Practical11_Microservice/
-└── Practical12_Docker/
+├── Ex1_Servlet/
+├── Ex2_HttpSession/
+├── Ex3_JSP/
+├── Ex4_JSP_Servlet_JDBC/
+├── Ex5_JavaMail/
+├── Ex6_WebSocket/
+├── Ex7_HibernateCRUD/
+├── Ex8_HibernateCache/
+├── Ex9_REST_API/
+├── Ex10_JWT/
+├── Ex11_Microservice/
+└── Ex12_Docker/
 ```
 
 ---
